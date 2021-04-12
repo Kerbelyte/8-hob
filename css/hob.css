@@ -35,6 +35,7 @@ body {
 
 .hob > .heatingElements > div.active {
     background: red;
+    transition: all 1s;
 }
 
 .hob > .buttons {
@@ -55,10 +56,6 @@ body {
     background-color: white;
     border-radius: 50%;
     position: relative;
-}
-.hob > .buttons > div.red {
-    background: red;
-
 }
 
 .hob > .heatingElements > div::before {
